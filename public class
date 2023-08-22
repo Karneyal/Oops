@@ -1,0 +1,30 @@
+// karneyal// 
+
+
+#include<iostream>
+using namespace std;
+class bus{
+	public:
+		int members;
+		string name,breaks,model;
+		bus(string n,string br,string ml,int m){
+			 
+			name=n;
+		    breaks=br;
+		    model=ml;
+		    members=m;
+		    
+		}
+		
+		void display(){
+			cout<<name<<" "<<breaks<<" "<<model<<" "<<members<<" "<<endl;
+		}
+};
+int main()
+{
+	bus s1("redbus","breaks","s20",20);
+	s1.display();
+	return 0;
+}
+
+	
